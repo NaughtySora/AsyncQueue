@@ -5,22 +5,22 @@
 - RoundRobinQueue async queue with round robin strategy.
 
 ## Types
-- `class AbstractQueue extends EventEmitter {`
-  `constructor();`
-  `enqueue(...params: any[]): void;`
-  `process(callback: ProcessCallback): this;`
+- `class AbstractQueue extends EventEmitter {`\
+  `constructor();`\
+  `enqueue(...params: any[]): void;`\
+  `process(callback: ProcessCallback): this;`\
 `}`
 
-- `class Queue extends AbstractQueue {`
-  `constructor(options: QueueOptions);`
-  `enqueue(...params: any[]): void;`
-  `process(callback: ProcessCallback): this;`
+- `class Queue extends AbstractQueue {`\
+  `constructor(options: QueueOptions);`\
+  `enqueue(...params: any[]): void;`\
+  `process(callback: ProcessCallback): this;`\
 `}`
 
-- `class RoundRobinQueue extends Queue {`
-  `constructor(options: RoundRobinQueueOptions);`
-  `enqueue(...params: any[]): void;`
- `process(callback: ProcessCallback): this;`
+- `class RoundRobinQueue extends Queue {`\
+  `constructor(options: RoundRobinQueueOptions);`\
+  `enqueue(...params: any[]): void;`\
+ `process(callback: ProcessCallback): this;`\
 `}`
 
 
