@@ -1,0 +1,34 @@
+{
+  "name": "naughty-queue",
+  "version": "0.1.0",
+  "author": "NaughtySora <naughtysora@proton.me>",
+  "license": "MIT",
+  "description": "Async queue",
+  "main": "main.js",
+  "types": "main.d.ts",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "node.js",
+    "async queue",
+    "round robin"
+  ],
+  "files": [
+    "lib/",
+    "main.d.ts"
+  ],
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaughtySora/naughty-queue"
+  },
+  "bugs": {
+    "url": "https://github.com/NaughtySora/naughty-queue/issues",
+    "email": "naughtysora@proton.me"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "typescript": "^5.8.3"
+  }
+}
