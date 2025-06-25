@@ -21,10 +21,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NaughtySora/naughty-queue"
+    "url": "git+https://github.com/NaughtySora/AsyncQueue"
   },
   "bugs": {
-    "url": "https://github.com/NaughtySora/naughty-queue/issues",
+    "url": "https://github.com/NaughtySora/AsyncQueue/issues",
     "email": "naughtysora@proton.me"
   },
   "devDependencies": {
