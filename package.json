@@ -4,7 +4,7 @@
   "author": "NaughtySora <naughtysora@proton.me>",
   "license": "MIT",
   "description": "Async queue",
-  "main": "main.js",
+  "exports": "./main.js",
   "types": "main.d.ts",
   "readmeFilename": "README.md",
   "keywords": [
@@ -17,18 +17,19 @@
     "main.d.ts"
   ],
   "scripts": {
-    "test": "node ./test/index.js"
+    "test": "c8 node ./test/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NaughtySora/naughty-queue"
+    "url": "git+https://github.com/NaughtySora/AsyncQueue"
   },
   "bugs": {
-    "url": "https://github.com/NaughtySora/naughty-queue/issues",
+    "url": "https://github.com/NaughtySora/AsyncQueue/issues",
     "email": "naughtysora@proton.me"
   },
   "devDependencies": {
-    "@types/node": "^24.0.3",
-    "typescript": "^5.8.3"
+    "@types/node": "^25.6.0",
+    "typescript": "^6.0.3",
+    "c8": "^11.0.0"
   }
 }

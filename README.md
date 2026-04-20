@@ -1,4 +1,3 @@
-
 # Description
 - Abstract queue just an interface for custom queue implementation.
 - Queue a simple async queue with wait timeout and process timeout.
