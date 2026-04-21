@@ -1,6 +1,5 @@
 "use strict";
 
-// const tests = ["queue", "round-robin"];
-const tests = ["round-robin"];
+const tests = ["queue", "round-robin"];
 
 for (const test of tests) require(`./${test}.js`);

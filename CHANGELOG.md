@@ -5,3 +5,10 @@
 - init
 - types
 - tests
+
+## [0.2.0] - 2026-04-21
+
+- better tests, coverage
+- queue refactor
+- add SLL
+- deps update
