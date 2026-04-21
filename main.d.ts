@@ -4,12 +4,12 @@ type ProcessCallback = (...params: any[]) => Promise<any>;
 
 interface QueueOptions {
   concurrency: number;
-  wait?: number;
+  tty?: number;
   timeout?: number;
 }
 
 interface RoundRobinQueueOptions extends QueueOptions {
-  categorize: (...params: any[]) => any;
+  factor: (...params: any[]) => any;
 }
 
 export class AbstractQueue extends EventEmitter {
