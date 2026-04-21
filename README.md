@@ -1,5 +1,5 @@
 # AsyncQueue
-Simple async queue with to control and postpone async operations.
+Simple async queue to control and postpone async operations.
 
 ```js
 const queue = new Queue({ concurrency: 5 });
